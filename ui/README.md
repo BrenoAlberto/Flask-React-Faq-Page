@@ -1,3 +1,16 @@
+# NOTES FOR THE REVIEWER
+Install the new packages 
+...
+cd ui
+yarn install
+...
+
+Run integration tests
+...
+yarn run cypress open
+when the cy window opens click on app.spec.js
+...
+
 # FAQ UI
 
 This SPA fetches frequently asked questions (FAQs) from an api and displays them to the user.

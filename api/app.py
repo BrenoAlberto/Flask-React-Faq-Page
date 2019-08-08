@@ -48,7 +48,7 @@ def new_message():
 
 def check_and_set_message(data):
     if 'first_name' not in data or 'last_name' not in data or 'email' not in data or 'message' not in data:
-        raise ValidationError('post does not have a body')
+        raise ValidationError("Missing required fields")
     else:
         message = Message(
             first_name = data['first_name'],

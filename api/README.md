@@ -1,3 +1,10 @@
+# NOTES FOR THE REVIEWER
+Install the new packages 
+...
+cd api
+pip install -r requirements.txt
+...
+
 # FAQ API
 
 This API has an endpoint that returns frequently asked questions (FAQs).
